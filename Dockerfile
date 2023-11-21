@@ -8,4 +8,4 @@ COPY users_with_password_dummy.csv ./
 # Build
 RUN CGO_ENABLED=0 GOOS=linux go build -o /worker-request-login
 # Run
-CMD ["/docker-gs-ping"]
+CMD ["/worker-request-login"]
