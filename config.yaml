@@ -1,0 +1,12 @@
+api:
+  login: http://api-login.local/login
+
+config:
+  interval:
+    - 0.4
+    - 0.5
+    - 1
+    - 2
+    - 3
+    - 0.2
+    - 0.6
